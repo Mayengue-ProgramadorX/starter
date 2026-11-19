@@ -9,7 +9,7 @@ def load_students(file_path):
         # Read data Students
         with open(file_path, "r") as file:
             reader = csv.DictReader(file)
-
+             
             # return list
             return list(reader)
 
